@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Atividade 01</title>
+        <script>
+            
+            let not1;
+            let not2;
+            let not3;
+            let not4;
+            let media;
+
+            not1 = window.prompt("Digite a primeira nota: ");
+            not1 = Number(not1);
+
+            not2 = window.prompt("Digite a segunda nota: ");
+            not2 = Number(not2);
+            
+            not3 = window.prompt("Digite a terceira nota: ");
+            not3 = Number(not3);
+            
+            not4 = window.prompt("Digite a quarta nota: ");
+            not4 = Number(not4);
+
+            media = (not1 + not2 + not3 + not4) / 4
+
+            console.log("A media do aluno e: ", media);
+            
+            if (media >= 7) {
+
+                alert("Aprovado");
+
+            } else if (media >= 5 && media < 7) {
+
+                alert("Recuperacao");
+
+            } else if (media < 5) {
+
+                alert("Reprovado");
+
+            }
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
